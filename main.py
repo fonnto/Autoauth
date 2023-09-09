@@ -38,9 +38,11 @@ if key==key2:
     print("Error assigned buttons match!")
     eror=input("Restart the script")
 if key3=="":
+    print("The stage of entering the link is skipped the script has started its work")
     auth_log()
     auth_pass()
 else:
+    print("The script has started its work")
     auth_link()
     auth_log()
     auth_pass()
