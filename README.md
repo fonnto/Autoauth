@@ -1,4 +1,4 @@
 # Autoauth
-Это простой скрипт который поможет вам с вашей рутиной. Настройка скрипта очень проста.
-Для начала работы вам понадобиться python 3 и модуль keyboard,для установки модуля используйте команду `pip install keyboard` в коммандой строке вашей операционной системы
-Всё что вам нужно это в файле `config.py` вписать свои данные в переменные `login` `password` `link`
+This is a simple script that will help you with your routine. Setting up the script is very simple.
+To get started, you will need python 3 and the keyboard module, to install the module, use the command `pip install keyboard` in the command line of your operating system
+All you need is in the file `config.py ` enter your data in the variables `login` `password` `link`
