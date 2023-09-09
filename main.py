@@ -9,9 +9,9 @@ print("\n███████╗███╗░░░███╗██╗░�
          "\nautoauth by fonnto v 0.2(alpha version)"
          )
          
-key=str(input("На какую кнопку должен вводиться логин? "))
-key2=str(input("На какую кнопку должен вводиться пароль? "))
-key3=str(input("На какую кнопку введеться ссылка?(Если не нужно оставь пустую строку)"))
+key=str(input("Which button should the login be entered on? "))
+key2=str(input("Which button should the password be entered on? "))
+key3=str(input("Which button will the link be entered on?(If not necessary, leave an empty line)"))
 def auth_log():
     for i in range(1):
         keyboard.wait(key)
@@ -29,14 +29,14 @@ def auth_link():
         keyboard.send("backspace")
         keyboard.write(link)
 if key=="":
-    print("Ошибка кнопка ввода логина не назначена!")
-    eror=input("Перезапустите скрипт")
+    print("Error the login button is not assigned!")
+    eror=input("Restart the script")
 if key2=="":
-    print("Ошибка кнопка ввода пароля не назначена!")
-    eror=input("Перезапустите скрипт")
+    print("Error the password entry button is not assigned!")
+    eror=input("Restart the script")
 if key==key2:
-    print("Ошибка назначеные кнопки совпадают!")
-    eror=input("Перезапустите скрипт")
+    print("Error assigned buttons match!")
+    eror=input("Restart the script")
 if key3=="":
     auth_log()
     auth_pass()
