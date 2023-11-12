@@ -9,15 +9,15 @@ print("\n███████╗███╗░░░███╗██╗░�
          "\nautoauth by fonnto v 1(release version)"
          )
          
-key=str(input("Which button should the login be entered on? "))
-key2=str(input("Which button should the password be entered on? "))
-key3=str(input("Which button will the link be entered on?(If not necessary, leave an empty line)"))
+key = str(input("Which button should the login be entered on? "))
+key2 = str(input("Which button should the password be entered on? "))
+key3 = str(input("Which button will the link be entered on?(If not necessary, leave an empty line)"))
 def auth_log():
     for i in range(1):
         keyboard.wait(key)
         keyboard.send("backspace")
         keyboard.write(login)
-        i=1
+        i = 1
 def auth_pass():
     for i in range(1):
         keyboard.wait(key2)
